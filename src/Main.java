@@ -10,8 +10,7 @@
  */
 public class Main {
     public static void main(String[] args) {
-        Perrito Juanda = new Perrito();
-        Juanda.nombre = "Juanda";
-         System.out.println(Juanda.nombre);
+        Perrito Juanda = new Perrito("Juanda",3);
+         System.out.println(Juanda.getNombre());
     }
 }    
